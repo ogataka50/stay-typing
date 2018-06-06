@@ -2,14 +2,15 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"fmt"
 	"io"
 	"os"
-	"github.com/ogataka50/stay-typing/stay_typing"
-	"github.com/fatih/color"
-	"time"
 	"strconv"
-	"context"
+	"time"
+
+	"github.com/fatih/color"
+	"github.com/ogataka50/stay-typing/stay_typing"
 )
 
 func input(r io.Reader) <-chan string {
